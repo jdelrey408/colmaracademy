@@ -108,12 +108,15 @@ header h1 {
 
 .button {
   background-color: #4A4A4A;
-  color: #FFF;
   padding-top: .5rem;
   padding-bottom: .5rem;
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.button a {
+  color: #FFF;
 }
 
 #eighty {
@@ -125,4 +128,79 @@ header h1 {
 
 #secondh2 {
   font-size: 2rem;
+  font-family: 'Fira+Sans', sans-serif;
+  font-weight: 900;
+  margin: 2rem 0rem 1.5rem 0rem;
 }
+
+.blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.by {
+  margin: 2rem 0rem;
+}
+
+.textcolumn {
+  display: flex;
+  width:40%;
+  margin: 2rem 0rem;
+}
+
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image35 {
+  width: 35%;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.image35 img {
+  width: 100%;
+}
+
+.image35dark {
+  width: 35%;
+  margin: 1rem;
+}
+
+.image35dark img {
+  width: 100%;
+}
+
+.text65 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.text65 h3 {
+  font-family: 'Fira+Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text65-description {
+  margin: 0.5rem 0rem;
+  line-height: 1.6;
+}
+
+.readmore a {
+  color: #404FD1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* third block of content (courses) */
