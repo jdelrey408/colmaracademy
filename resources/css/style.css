@@ -1,0 +1,128 @@
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+/* color */
+
+.darkgrey {
+  color: #404040;
+  font-weight: 700;
+}
+
+.title-grey {
+  color: #454545;
+}
+
+.mediumgrey-background {
+  background-color: #D1D1D1;
+}
+
+.lightgrey-background {
+  background-color: #EDEDED;
+}
+
+/* header and menu section */
+header {
+  display: flex;
+  width: 100%;
+  background-color: #FFF;
+  height: 4rem;
+}
+
+header #toplogo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-grow: 1;
+  padding: 1rem 1.5rem;
+}
+
+#toplogo img {
+  height: 3rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #7F7F7F;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+#menu span {
+  margin: 0rem 0.5rem;
+}
+
+#menu:last-child {
+  margin-right: 1.5rem;
+}
+
+
+/* first block of content */
+
+
+.image60 {
+  width:60%;
+  margin: 2rem 1.5rem;
+}
+
+.image60 img {
+  width: 100%;
+}
+
+.text40 {
+  display: flex;
+  align-items: center;
+  width:40%;
+  margin: 2rem 0rem;
+}
+
+.text40 h2 {
+  font-family: 'Fira+Sans', sans-serif;
+  font-size: 2.65rem;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  margin: 1.75rem 0rem;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #4A4A4A;
+  color: #FFF;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#eighty {
+  width: 80%;
+}
+
+
+/* second block of content (information) */
+
+#secondh2 {
+  font-size: 2rem;
+}
