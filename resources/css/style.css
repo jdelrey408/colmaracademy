@@ -25,6 +25,7 @@ html {
 }
 
 .mediumgrey-background {
+  //background-color: red;
   background-color: #D1D1D1;
 }
 
@@ -163,6 +164,17 @@ header h1 {
 
 .image35 img {
   width: 100%;
+  height: auto;
+}
+
+.image35b {
+  width: 35%;
+  margin: 1rem;
+}
+
+.image35b img {
+  width: 100%;
+  height: auto;
 }
 
 .image35dark {
@@ -172,6 +184,7 @@ header h1 {
 
 .image35dark img {
   width: 100%;
+  height: auto;
 }
 
 .text65 {
@@ -204,3 +217,82 @@ header h1 {
 }
 
 /* third block of content (courses) */
+
+.courseh2 {
+  text-align: center;
+  font-family: 'Fira+Sans', sans-serif;
+  font-size: 2.65rem;
+  font-weight: 900;
+  line-height: 1.3;
+  padding: 2rem 0rem;
+}
+
+.courseboxbg h3 {
+  font-family: 'Fira+Sans', sans-serif;
+  font-size: 1.8rem;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.courseboxbg p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+#coursegrid {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 4.5rem 2rem 4.5rem;
+}
+
+.coursebox {
+  width: 33.3%;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.coursebox img {
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+.coursebox-center {
+  width: 33.3%;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.coursebox-center img {
+  width: 100%;
+}
+
+.coursebox-right {
+  width: 33.3%;
+  flex-direction: column;
+}
+
+.coursebox-right img {
+  width: 100%;
+}
+
+.courseboxbg {
+  background-color: #FFF;
+  height: 13rem;
+}
+
+/* fourth block of content (video content) */
+
+.thesish2 {
+  text-align: center;
+  font-family: 'Fira+Sans', sans-serif;
+  font-size: 2.65rem;
+  font-weight: 900;
+  padding: 1.8rem 0rem;
+}
+
+video {
+  width: 100%;
+}
