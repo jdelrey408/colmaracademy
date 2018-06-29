@@ -194,7 +194,6 @@ display: none;
 
 }
 
-
 /* second block of content (information) */
 
 .secondimage60 {
@@ -349,6 +348,10 @@ display: none;
 
 /* third block of content (courses) */
 
+.course {
+  display: block;
+}
+
 .courseh2 {
   text-align: center;
   font-family: 'Fira+Sans', sans-serif;
@@ -414,6 +417,42 @@ display: none;
   height: 13rem;
 }
 
+.mobile-course {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+  .course {
+    display: none;
+  }
+
+  .mobile-course {
+    display: block;
+  }
+  .courseh2 {
+    padding: 1rem 0rem;
+  }
+
+  #mobile-course-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .mcourse {
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .thesismobile {
+    display: none;
+  }
+
+}
+
+
 /* fourth block of content (video content) */
 
 .thesish2 {
@@ -448,4 +487,15 @@ video {
 
 #footermenu:last-child {
   margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+
+  #copyright p {
+    padding: 1rem;
+  }
+
+  #footermenu {
+    display: none;
+  }
 }
