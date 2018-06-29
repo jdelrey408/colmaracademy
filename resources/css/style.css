@@ -41,7 +41,7 @@ header {
   height: 4rem;
 }
 
-header #toplogo {
+#toplogo {
   display: flex;
   align-items: center;
   align-content: center;
@@ -53,24 +53,54 @@ header #toplogo {
   height: 3rem;
 }
 
-header h1 {
+#toplogo h1 {
   font-size: 2rem;
   color: #7F7F7F;
 }
 
-#menu {
+#desktopmenu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-grow: 1;
 }
 
-#menu span {
+#desktopmenu span {
   margin: 0rem 0.5rem;
 }
 
-#menu:last-child {
+#desktopmenu:last-child {
   margin-right: 1.5rem;
+}
+
+#mobilemenu {
+display: none;
+}
+
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+
+  #toplogo {
+    display: none;
+  }
+
+  #desktopmenu {
+    display: none;
+  }
+
+  #mobilemenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  #mobilemenu img {
+    height: 2.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
 }
 
 
@@ -124,8 +154,57 @@ header h1 {
   width: 80%;
 }
 
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image60 {
+    width:100%;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .image60 img {
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .text40 {
+    display: flex;
+    align-items: left;
+    width:100%;
+  }
+
+  .text40 h2 {
+    font-size: 2.2rem;
+  }
+
+  #eighty {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+
+}
+
 
 /* second block of content (information) */
+
+.secondimage60 {
+  width:60%;
+  margin: 2rem 1.5rem;
+}
+
+.secondimage60 img {
+  width: 100%;
+}
 
 #secondh2 {
   font-size: 2rem;
@@ -155,6 +234,10 @@ header h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.mobile-image {
+  display: none;
 }
 
 .image35 {
@@ -214,6 +297,54 @@ header h1 {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+
+  .secondimage60 {
+    display: none;
+  }
+
+  .textcolumn {
+    display: flex;
+    width:100%;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+  }
+
+  .image35 {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .image35dark {
+    width: 100%;
+    margin: 0rem;
+  }
+
+
 }
 
 /* third block of content (courses) */
@@ -295,4 +426,26 @@ header h1 {
 
 video {
   width: 100%;
+}
+
+/* fifth block of content (copyright) */
+
+#copyright p {
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#footermenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+#footermenu span {
+  margin: 0rem 0.5rem;
+}
+
+#footermenu:last-child {
+  margin-right: 1.5rem;
 }

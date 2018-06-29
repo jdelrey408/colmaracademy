@@ -16,14 +16,22 @@
         <img src="./resources/images/ic-logo.svg" alt="colmar academy logo">
         <h1><span class="darkgrey">COLMAR</span>ACADEMY</h1>
       </div>
-      <div id="menu">
+      <div id="desktopmenu">
         <nav>
           <span><a href="#">On Campus</a></span>
           <span><a href="#">Online</a></span>
           <span><a href="#">For Companies</a></span>
           <span><a href="#">Sign In</a></span>
         </nav>
-    </div>
+      </div>
+      <div id="mobilemenu">
+        <nav>
+          <span><a href="#"><img src="./resources/images/ic-logo.svg" alt="logo icon"></a></span>
+          <span><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="chair icon"></a></span>
+          <span><a href="#"><img src="./resources/images/ic-online.svg" alt="computer icon"></a></span>
+          <span><a href="#"><img src="./resources/images/ic-login.svg" alt="login icon"></a></span>
+        </nav>
+      </div>
     </header>
 
     <!-- hero image section -->
@@ -44,7 +52,7 @@
     <!-- second block of content (information) -->
     <div class="lightgrey-background container">
       <div class="flex">
-        <div class="image60">
+        <div class="secondimage60">
           <img src="./resources/images/information-main.jpg">
           <h2 id="secondh2" class="title-grey">It doesn't hurt to keep practicing</h2>
           <p class="blockquote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Lacinia quis vel eros donec ac odio tempor."</p>
@@ -54,7 +62,8 @@
           <div class="column">
             <div class="row">
               <div class="image35">
-                <img src="./resources/images/information-orientation.jpg" alt="orientation date image">
+                <img src="./resources/images/information-orientation.jpg" alt="orientation date image" class="desktop-image">
+                <img src="./resources/images/information-orientation-mobile.jpg" alt="orientation date image" class="mobile-image">
               </div>
               <div class="text65">
                 <h3>Orientation Date</h3>
@@ -64,7 +73,8 @@
             </div>
             <div class="row">
               <div class="image35">
-                <img src="./resources/images/information-campus.jpg" alt="information campus image">
+                <img src="./resources/images/information-campus.jpg" alt="information campus image" class="desktop-image">
+                <img src="./resources/images/information-campus-mobile.jpg" alt="orientation campus image" class="mobile-image">
               </div>
               <div class="text65">
                 <h3>Our Campus</h3>
@@ -72,9 +82,10 @@
                   <p class="readmore"><a href="#">Read More</a></p>
               </div>
             </div>
-            <div class="row mediumgrey-background">
+            <div class="row2 mediumgrey-background">
               <div class="image35dark">
-                <img src="./resources/images/information-guest-lecture.jpg" alt="proffesor oliver sack image">
+                <img src="./resources/images/information-guest-lecture.jpg" alt="proffesor oliver sack image" class="desktop-image">
+                <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="orientation date image" class="mobile-image">
               </div>
               <div class="text65">
                 <h3>Our guest lecture</h3>
@@ -156,7 +167,6 @@
           </video>
           <h2 id="secondh2" class="title-grey">Reimagine urban</h2>
           <p class="blockquote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Lacinia quis vel eros donec ac odio tempor."</p>
-          <p class="blockquote by">&copy Colmar Academy. All rights reserved</p>
         </div>
         <div class="textcolumn">
           <div class="column">
@@ -183,5 +193,17 @@
       </div>
     </div>
 
+    <!-- footer section -->
+    <div class="lightgrey-background container">
+    <div class="flex">
+      <div id="copyright">
+        <p>&copy Colmar Academy. All rights reserved</p>
+      </div>
+      <div id="footermenu">
+        <span><a href="#">Terms</a></span>
+        <span><a href="#">Privacy</a></span>
+      </div>
+    </div>
+   </div>
   </body>
 </html>
